@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Supercalifragalistic", "Supercalifragalistic\Supercalifragalistic.csproj", "{4909ED4E-43BE-4E68-AB92-74E59519ACAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4909ED4E-43BE-4E68-AB92-74E59519ACAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4909ED4E-43BE-4E68-AB92-74E59519ACAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4909ED4E-43BE-4E68-AB92-74E59519ACAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4909ED4E-43BE-4E68-AB92-74E59519ACAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E73E88E6-1CD1-4303-9C17-4D8F24412A97}
+	EndGlobalSection
+EndGlobal
