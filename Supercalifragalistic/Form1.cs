@@ -11,9 +11,14 @@ namespace Supercalifragalistic
         private void button1_Click(object sender, EventArgs e)
         {
             bmicalc.GetInput(heightbox,weightbox);
-            bmicalc.Giveoutput(ref outputlabel);
+            bmicalc.GiveBMI(ref outputlabel);
 
             
+        }
+
+        private void BMIUpdater_Click(object sender, EventArgs e)
+        {
+            bmicalc.PrintBMIList(BMIListBox);
         }
     }
 }

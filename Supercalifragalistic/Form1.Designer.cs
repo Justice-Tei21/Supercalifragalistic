@@ -41,6 +41,8 @@
             this.outputlabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.BMIUpdater = new System.Windows.Forms.Button();
+            this.BMIListBox = new System.Windows.Forms.ListView();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -156,11 +158,31 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // BMIUpdater
+            // 
+            this.BMIUpdater.Location = new System.Drawing.Point(669, 270);
+            this.BMIUpdater.Name = "BMIUpdater";
+            this.BMIUpdater.Size = new System.Drawing.Size(118, 43);
+            this.BMIUpdater.TabIndex = 7;
+            this.BMIUpdater.Text = "button1";
+            this.BMIUpdater.UseVisualStyleBackColor = true;
+            this.BMIUpdater.Click += new System.EventHandler(this.BMIUpdater_Click);
+            // 
+            // BMIListBox
+            // 
+            this.BMIListBox.Location = new System.Drawing.Point(396, 56);
+            this.BMIListBox.Name = "BMIListBox";
+            this.BMIListBox.Size = new System.Drawing.Size(229, 357);
+            this.BMIListBox.TabIndex = 8;
+            this.BMIListBox.UseCompatibleStateImageBehavior = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1014, 585);
+            this.Controls.Add(this.BMIListBox);
+            this.Controls.Add(this.BMIUpdater);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
@@ -191,5 +213,7 @@
         private Label label1;
         private Label outputlabel;
         private ErrorProvider errorProvider1;
+        private Button BMIUpdater;
+        private ListView BMIListBox;
     }
 }
